@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYMviz</title>
+  <meta charset="utf-8">
+  <meta name="description" content="NYMviz">
+  <meta name="author" content="CEL">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+<link rel=stylesheet href="./assets/css/styles.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>NYMviz</h1>
+    <h2>Visualizing the New York Marathon 2002 Results</h2>
+    <p>CEL<br/>Coursera DSS &quot;Developing Data Products&quot;</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:url(assets/img/New_York_marathon_Verrazano_bridge.jpg);">
+  <article data-timings="">
+    <p><hgroup><h2 class="ovr">A Diverse Event</h2></hgroup></p>
+
+<p class="ovr">Each year, on the first Sunday in November, thousands of runners participate in the <a href="http://en.wikipedia.org/wiki/New_York_City_Marathon">New York City Marathon</a>, which is at once among the premier annual events in elite distance running and the largest marathon in the world.</p>
+
+<p class="ovr">A dataset of a random sample of 1000 runners taken from the finishers of the 2002 New York City Marathon is available as part of the <a href="http://cran.r-project.org/web/packages/UsingR/UsingR.pdf">Package 'UsingR'</a> (see p. 74).  We will create an interactive online application allowing the user to visualize the characteristics of this population and appreciate its diversity along several dimensions: </p>
+
+<ul>
+<li class="ovr"><span>gender</span></li>
+<li class="ovr"><span>age</span></li>
+<li class="ovr"><span>time to finish the race</span></li>
+</ul>
+
+<p><cite>image: By Martineric from Lille, France (Marathon de New York: Verrazano Bridge) [<a href="http://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3ANew_York_marathon_Verrazano_bridge.jpg">via Wikimedia Commons</a></cite></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Both Genders Display a Broad Range of Talents</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>While the central tendency of male runners&#39; finish time is quicker than that of their female counterparts, there is substantial overlap in abilities between the two genders.</p>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="900px" height="450px" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Practically All Ages Are Represented</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Although the overall trend to slower race times with increased age is evident, what is even more striking is the broad range of performance at each cohort.</p>
+
+<p><img src="assets/fig/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="750" height="500" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>NYMviz: A Statistical Appreciation of the Marathon</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><span class="callout">NYMviz</span> will allow the user to interact with several views of the 2002 New York Marathon results to reveal visualizations of the distributions of finish times within the entire sample as well as by gender and age.</p>
+
+<p>By engaging the user to activate various views of the dataset, <span class="callout">NYMviz</span> will create a stronger impression of the major features of the dataset than could be achieved by a static presentation of plots and tables alone.</p>
+
+<p>It is our hope that <span class="callout">NYMviz</span> will convey the unique hybrid nature of major marathon events as elite athletic competitions (led by a handful of world-class runners) that are also mass celebrations of an active lifestyle that provide aspirational opportunities for everyone.</p>
+
+<h2>It may even inspire someone to get out and run!</h2>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title=''>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Both Genders Display a Broad Range of Talents'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Practically All Ages Are Represented'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NYMviz: A Statistical Appreciation of the Marathon'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

@@ -1,0 +1,47 @@
+.title-slide { background: url("../img/zenbg-1.png") #ffee99 repeat-x ; }
+
+.title-slide hgroup {
+	background-color: rgba(256,256,0,0.7);
+	color: #444;
+	padding: 7px;
+}
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 { 
+	color: #444;
+}
+
+#slide-1 hgroup { margin-top: 14px; }
+
+#slide-1 h2,
+#slide-1 .ovr { background-color: rgba(64,64,0,0.5);
+            color: #fff; 
+            padding: 7px; }
+
+#slide-1 h2 { display: inline-block; 
+							padding: 7px; margin: 7px 0; 
+							line-height: 100%; }
+
+#slide-1 p.ovr { margin: 7px 0; }
+
+#slide-1 a { color: #ffc; border-bottom: dotted; }
+#slide-1 a:hover { color: #ffc !important; 
+                    background-color: rgba(64,64,0,1) }
+
+#slide-1 li {
+	display: inline-block;
+	margin: 0 14px;
+} 
+
+#slide-1 li:before { content: none; }
+
+#slide-1 li span:before {content:'\002713'; color: #0f0; font-size: 1.8rem; }
+
+#slide-1 cite { 
+	position: absolute; bottom: 0; 
+	background: transparent; 
+	font-size: 0.7rem; color: #fff;
+}
+
+#slide-1 cite a { border-bottom: solid 1px; }
+
+span.callout { background-color: #ff0; }
